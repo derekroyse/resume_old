@@ -1,0 +1,45 @@
+/* Elements */
+body		{background:#000066; height:auto; font: 14px Verdana}
+h1			{font:48px "Times New Roman"; margin:0px; padding-top:25px}
+h2			{font:24px "Times New Roman"; margin:0px}
+h3			{font:bold 20px Verdana}
+iframe		{height:555px; width:725px}
+
+/* Classes */
+.content	{float:left; width:100%; padding-top:10px; padding-bottom:10px; border-bottom:1px solid black}
+.noborder	{float:left; width:100%; padding-top:10px; padding-bottom:10px}
+.buttontext	{margin:1px}
+.overlay	{display: none; position: absolute;
+			top: 0%; left: 0%; width: 100%; height: 1500px;
+			background-color: black; z-index:1001;-moz-opacity: 0.8; opacity:.80;
+			filter: alpha(opacity=80);}
+.white		{display: none; position: absolute;
+			top: 10%; left: 25%; width:750px; height:auto;
+			border: 16px solid orange; background-color: darkgrey;
+			z-index:1002; overflow: auto;}
+.leftcontent	{float:left; padding-left:10px; font:}
+.innercontent	{float:left; padding-left:10px; border-left:1px solid black;}
+.clickdiv	{display:block; width:110; height:160; border:3px outset black; background-color:darkgrey}
+a.clickdiv 	{text-decoration:none; color:black; font-weight:bold}
+
+/* ID's */
+#mainbg		{background:gold; margin-right:auto; margin-left:auto; margin-top:40px; width:700px; padding:20 0 20 0;}
+	#main 		{background:#D0D0D0; height:945px}
+		#avatar		{float:left;  width:25%; text-align:center; padding-top:30px; padding-bottom:30px}
+		#avpic		{height:100px; width:100px}
+		#titles		{float:left; padding-right:80px;}
+		#buttons	{float:left; text-align:center; padding:15 10 0 10; margin-top:20px}
+
+		#content2a {width:130}
+		#content2b {width:540; text-align:center; line-height:1.5}
+
+		#content3a {width:130}
+		#content3b {width:400; padding-right:10px; text-align:center}
+		#content3c {width:90; text-align:center; border:0}
+
+		#content4a {width:130}
+		#content4b {width:250; text-align:center}
+		#content4c {width:250; text-align:center; line-height:1.5}
+
+		#content5a {width:130}
+		#content5b {width:520}
