@@ -223,7 +223,7 @@ hr{
 .main{
 	background-color:#D0D0D0; 
 	margin-top:40px;
-	width:400px;
+	width:600px;
 	border-top:20px solid gold;
 	border-bottom:20px solid gold;
 	display:inline-block;
@@ -231,8 +231,8 @@ hr{
 
 /* Header */
 h1{
-	font:38px "Times New Roman"; 
-	margin:20px 0px 0px 0px;
+	font:48px "Times New Roman"; 
+	margin:10px 0px 0px 0px;
 	padding:0px;
 }
 
@@ -244,8 +244,7 @@ h2{
 
 .avpic{
 	float:left;
-	margin:10px 10px 20px 10px;
-	text-align:center;
+	margin:10px 10px 0px 15%;
 	height:auto;
 }
 	
