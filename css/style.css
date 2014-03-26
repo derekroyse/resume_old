@@ -218,7 +218,7 @@ hr{
 
 
 /* Phone formatting */
-@media screen and (max-width:660px){
+@media screen and (max-width:900px){
 /* Main Panel*/
 .main{
 	background-color:#D0D0D0; 
