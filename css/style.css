@@ -219,101 +219,113 @@ hr{
 
 /* Phone formatting */
 @media screen and (max-width:900px){
-/* Main Panel*/
-.main{
-	background-color:#D0D0D0; 
-	margin-top:40px;
-	width:600px;
-	border-top:20px solid gold;
-	border-bottom:20px solid gold;
-	display:inline-block;
-}
+	/* Main Panel*/
+	.main{
+		background-color:#D0D0D0; 
+		margin-top:40px;
+		width:600px;
+		border-top:20px solid gold;
+		border-bottom:20px solid gold;
+		display:inline-block;
+	}
 
-/* Header */
-h1{
-	font:48px "Times New Roman"; 
-	margin:10px 0px 0px 0px;
-	padding:0px;
-}
+	/* Header */
+	h1{
+		font:48px "Times New Roman"; 
+		margin:10px 0px 0px 0px;
+		padding:0px;
+	}
 
-h2{
-	font:24px "Times New Roman"; 
-	margin:0px;
-	padding:0px;
-}
+	h2{
+		font:24px "Times New Roman"; 
+		margin:0px;
+		padding:0px;
+	}
 
-.avpic{
-	float:left;
-	margin:10px 10px 0px 15%;
-	height:auto;
-}
+	.avpic{
+		float:left;
+		margin:10px 10px 0px 15%;
+		height:auto;
+	}
+		
+	.titles{
+		float:left;
+		padding:0px;
+		margin:0px;
+	}
+
+	img.social{
+		height:100px;
+		width:100px;
+	}
+
+	.social{
+		width:100%;
+		text-align:center;
+		clear:both;
+	}
+
+	.buttontext{
+		margin:1px;
+	}
+
+	/* Content Panels */
+	h3{
+		font:bold 20px Verdana;
+	}
+
+	hr{
+		clear:left;
+		height:1px;
+		width:95%;
+		border-width:0;
+		color:black;
+		background-color:black;
+	}
+
+	.content{
+		float:left;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+		border:0px;
+		text-align:center;
+		height:auto;
+	}
+
+	.leftcontent{
+		width:100%;
+		clear:both;
+	}
+
+	.innercontent{
+		width:55%;
+	}
+
+	.rightcontent{
+		width:45%;
+	}
+
+	.bigcontent{
+		width:100%;
+	}
 	
-.titles{
-	float:left;
-	padding:0px;
-	margin:0px;
-}
-
-img.social{
-	height:100px;
-	width:100px;
-}
-
-.social{
-	width:100%;
-	text-align:center;
-	clear:both;
-}
-
-.buttontext{
-	margin:1px;
-}
-
-/* Content Panels */
-h3{
-	font:bold 20px Verdana;
-}
-
-hr{
-	clear:left;
-	height:1px;
-	width:95%;
-	border-width:0;
-	color:black;
-	background-color:black;
-}
-
-.content{
-	float:left;
-	margin:0px 0px 0px 0px;
-	padding:0px 0px 0px 0px;
-	border:0px;
-	text-align:center;
-	height:auto;
-}
-
-.leftcontent{
-	width:100%;
-	clear:both;
-}
-
-.innercontent{
-	width:50%;
-}
-
-.rightcontent{
-	width:50%;
-}
-
-.bigcontent{
-	width:100%;
-}
-
-.noborder{
-	border:0px;
-	float:left;
-	text-align:center;
-	padding:0 0 0 10px;
-}
-
+	ul{
+		padding-left:30px;
+		font-size:16px;
+	}
+	
+	p{
+		margin:10px 0px 10px 0px;
+		font-size:18px;
+	}
+	
+	.underline{
+		text-decoration:underline;
+		font-weight:bold;
+		margin-bottom:5px;
+	}
+	
+	.education_font{
+		font-size:16px;
+	}
 }
