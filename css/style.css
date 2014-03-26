@@ -214,7 +214,7 @@ hr{
 	margin-right:30px;
 }
 
-@mediascreen and (max-width: 320px){
+@media screen and (max-width: 320px){
 	body{
 		background-color:green;
 	}
