@@ -96,6 +96,10 @@ h3{
 	font:bold 20px Verdana;
 }
 
+h4{
+	font:bold 16px Verdana;
+}
+
 hr{
 	clear:left;
 	height:1px;
@@ -114,25 +118,15 @@ hr{
 }
 
 .leftcontent{
-	width:22%;
+	width:20%;
 	padding-left:10px;
-	margin-right:5px;
+	padding-right:19px;
 	clear:left;
 }
 
 .innercontent{
-	padding:0 5px 0 5px; 
-	width:40%;
+	padding:0 15px 0 15px; 
 	border-left:1px solid black;
-}
-
-.rightcontent{
-	padding:0 10px 0 10px; 
-	width:30%;
-	border-left:1px solid black;
-}
-
-.bigcontent{
 	width:70%;
 }
 
@@ -141,6 +135,16 @@ hr{
 	float:left;
 	text-align:center;
 	padding:0 0 0 75px;
+}
+
+.nocenter{
+	text-align:left;
+	padding: 5px 0 0 35px;
+}
+
+.bullets ul{
+    list-style-type: square;
+	font:normal 12px Verdana;
 }
 
 /* Popup-Div*/
@@ -214,8 +218,6 @@ hr{
 	float:left;
 	margin-right:30px;
 }
-
-
 
 /* Phone formatting */
 @media screen and (max-width:900px){
@@ -298,14 +300,6 @@ hr{
 	}
 
 	.innercontent{
-		width:55%;
-	}
-
-	.rightcontent{
-		width:45%;
-	}
-
-	.bigcontent{
 		width:100%;
 	}
 	
@@ -314,17 +308,15 @@ hr{
 		font-size:16px;
 	}
 	
+	.bullets ul{
+		list-style-type: none;
+	}
+	
 	p{
 		margin:10px 0px 10px 0px;
 		font-size:18px;
 	}
-	
-	.underline{
-		text-decoration:underline;
-		font-weight:bold;
-		margin-bottom:5px;
-	}
-	
+		
 	.education_font{
 		font-size:16px;
 	}
