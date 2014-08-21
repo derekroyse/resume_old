@@ -147,6 +147,10 @@ hr{
 	font:normal 12px Verdana;
 }
 
+.bullets li{
+	margin-top:5px;
+}
+
 /* Popup-Div*/
 .modalDialog {
 	position: fixed;
