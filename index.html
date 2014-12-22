@@ -1,166 +1,88 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<link href="css/style.css" rel="stylesheet" type="text/css"/>
-</script>
-</head>
-<body>
-	<div class="main"> <!-- Center Content Panel -->
-		<div class="avpic"> <!-- Picture-->
-			<img src="images/photo.png">
-		</div>	
-		<div class="titles"> <!-- Name + title-->
-			<h1>Derek Royse</h1>
-			<h2>Programmer</h2>
+	<head>
+		<title>DerekRoyse.com - Home</title>
+		<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+		<meta charset="UTF-8">
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	
+	<body>
+		<div class="header">
+			<p>Derek Royse</p>
+			<p class="title">Programmer</p>
 		</div>
-		<div class="social"> <!-- Social/Contact-->
-			<a href="http://www.facebook.com/derek.royse" target="_blank"><img class="buttontext" src="images/facebook.png"></a>
-			<a href="http://www.twitter.com/derekroyse" target="_blank"><img class="buttontext" src="images/twitter.png"></a>
-			<a href="http://www.linkedin.com/pub/derek-royse/91/2a5/266" target="_blank"><img class="buttontext" src="images/linkedin.png"></a>
+		
+		<div class="hot-container">
+			<p><a href="index.html" class="btn  noright">Home</a></p>
+			<p>	<a href="portfolio.html" class="btn">Portfolio</a></p>
+			<p> <a href="blog.html" class="btn">Blog</a></p>
+			<p>	<a href="contact.html" class="btn">Contact</a></p>
+		</div>
+		
+		<div class="content">
+			<div class="contentPanel"> <!--About Me-->
+				<h3>About Me</h3>
+				<p> I am a Spring 2014 graduate of Concord University with a bachelor's 
+					degree in Computer Information Systems.	I am currently seeking
+					an entry level programming position in the West Virginia/Virginia area. I
+					am a hard worker, fast learner, and I am anxiously looking forward
+					to starting my career.
+				</p>
+			</div>
 			
-			<p class="buttontext"><a href="mailto:derekroyse@gmail.com">derekroyse@gmail.com</a></p>
-			<p class="buttontext"><a href="http://www.derekroyse.com">www.derekroyse.com</a></p>
-			<p class="buttontext">(304) 294-6627</p>
-		</div>
-		<hr>
-		<div class="content leftcontent"> <!-- About Title -->
-			<h3>About Me</h3>
-		</div>
-		<div class="content innercontent"> <!--About Text-->
-			<p> I am a Spring 2014 graduate of Concord University with a bachelor's 
-				degree in Computer Information Systems.	I am currently seeking
-				an entry level programming position in the West Virginia area. I
-				am a hard worker, fast learner, and I am anxiously looking forward
-				to starting my career.
-			</p>
-		</div>
-		<hr>
-		<div class="content leftcontent"> <!-- Education Title-->
-			<h3>Education</h3>
-		</div>
-		<div class="content innercontent"> <!-- Education Quick Info-->
-			<p class = "education_font">
-				BS Computer Information Systems
-				<br>Concord University (Spring 2014)
-				<br>Magna Cum Laude (3.7 GPA)
-			</p>
-		</div>
-		<hr>
-		<div class="content leftcontent"> <!-- Courses Title-->
-		<h3>Courses</h3>
-		</div>
-		<div class="content innercontent"> <!-- Course Info-->
-				<p class="education_font">A full list of the courses I have taken can be found by clicking the button below.</p>
-				<br><a href="#openModal"><img src="images/class_button.png"></a>
+			<div class="contentPanel"> <!-- Education -->
+				<h3>Education</h3>
+				<p>Bachelor of Science</p>
+				<p>Computer Information Systems</p>	
+				<p>Concord University (Spring 2014)</p>
+				<p>Magna Cum Laude (3.7 GPA)</p>
+			</div>
 			
-			<div id="openModal" class="modalDialog">
-				<div>
-					<a href="#close" title="Close" class="close">X</a>
-						<div class="floatleft">
-							<h3>Programming:</h3>
-							<ul>
-								<li>Computer Science I/II (Java)</li>
-								<li>Introduction to Programming I/II (C++)</li>
-								<li>C++ Programming (C++)</li>
-								<li>Software Engineering (Java/Android Capstone)</li>
-								<li>Database Management</li>
-								<li>COBOL</li>
-								<li>Assembly Language Programming</li>
-								<li>Web Design and Development I/II (HTML/CSS/Javascript)</li>
-								<li>Operating Systems</li>
-								<li>Discrete Structures</li>
-								<li>Intro to Algorithms</li>
-							</ul>
-							<br>
-							<h3>IT:</h3>
-							<ul>
-								<li>Distributed Processing and Networks</li>
-								<li>Micro-Computer Systems Design (Linux)</li>
-								<li>Cyber Law, Ethics, and Culture</li>
-								<li>Adobe Photoshop</li>
-								<li>Network+</li>
-								<li>Windows Operating Systems</li>
-								<li>Computer Architecture</li>
-							</ul>
-						</div>
-						<div class="floatleft">
-							<h3>Business/Office:</h3>
-							<ul>
-								<li>Principles of Accounting</li>
-								<li>Principles of Marketing</li>
-								<li>Principles of Management</li>
-								<li>Word Processing Concepts (MS Word)</li>
-								<li>Spreadsheet Concepts (MS Excel)</li>
-								<li>Electronic Presentations (MS Powerpoint)</li>
-								<li>Business Productivity (Advanced Excel + Access)</li>
-								<li>Project Management</li>
-								<li>Foundations of Layout and Design</li>
-								<li>Microeconomics</li>
-								<li>Elementary Statistics</li>
-							</ul>
-							<br>
-							<h3>Miscellaneous:</h3>
-							<ul>
-								<li>General Biology I/II</li>
-								<li>Human Anatomy/Physiology I/II</li>
-								<li>Medical Terminology	</li>
-							</ul>
-						</div>
+			<div class="contentPanel"> <!-- Experience-->
+				<h3>Experience with:</h3>
+				<div class="subPanel">
+					<ul>
+						<li>C++</li>
+						<li>Java</li>
+						<li>Android</li>
+						<li>COBOL</li>
+						<li>x86 Assembly</li>
+					</ul>
 				</div>
+				<div class="subPanel">
+					<ul>
+						<li>HTML5/CSS</li>
+						<li>Javascript</li>
+						<li>Ruby/RubyOnRails</li>
+						<li>.Net Framework (C#/MVC)</li>
+						<li>SQL & PHP</li>
+					</ul>
+				</div>
+				<p>Worked in both Linux and Windows environments.
+				<br> Completed projects in a variety of IDEs including 
+				<br> Codeblocks, Visual Studio, and Eclipse.</p>
+			</div>
+			
+			<div class="contentPanel"> <!-- Employment-->
+				<h3>Employment</h3>
+				<p>
+					<h4>Shift Manager/Lead Cashier</h4>
+					<p>Dollar General</p>
+					<ul>
+						<li>Promoted from cashier to head cashier, then ultimately to shift manager.</li>
+						<li>Responsible for opening and closing the store and day-to-day accounting tasks.</li>
+						<li>Supervised other employees and handled customer service responsibilities.</li>
+						<li>Worked with vendors and merchandising. </li>
+					</ul>
+				</p>
+			</div>
+			
+			<div class="contentPanel"> <!-- Portfolio Title-->
+				<h3>Resume</h3>				
+				<p><a href="files/DerekRoyse-Resume.pdf" target="_blank">Download Resume</a></p>
+				<p><a href="http://www.github.com/derekroyse" target="_blank">My GitHub Profile</a></p>
 			</div>
 		</div>
-		<hr>
-		<div class="content leftcontent"> <!-- Experience Title-->
-			<h3>Experience</h3>
-		</div>
-		<div class="content innercontent"> <!-- Experience List-->
-		<p class="underline">Experience with:</p>
-			<div class="noborder">
-				<ul>
-					<li>C++ (extensive)</li>
-					<li>Java (extensive)</li>
-					<li>Android</li>
-					<li>COBOL</li>
-					<li>x86 Assembly</li>
-				</ul>
-			</div>
-			<div class="noborder">
-				<ul>
-					<li>HTML5/CSS</li>
-					<li>Javascript</li>
-					<li>Ruby</li>
-					<li>RubyOnRails</li>
-					<li>MySQL</li>
-				</ul>
-			</div>
-		</div>
-		<hr>
-		<div class="content leftcontent"> <!-- Employment Title-->
-			<h3>Employment</h3>
-		</div>
-		<div class="content innercontent nocenter bullets"> <!-- Employment Quick Info-->
-			<p>
-				<h4>Shift Manager</h4>
-				<p>Dollar General, 2006-2011</p>
-				<ul>
-					<li>Promoted from cashier to head cashier, then to shift manager in 2010.</li>
-					<li>Responsible for opening and closing the store and day-to-day accounting tasks.</li>
-					<li>Supervised other employees and handled customer complaints.</li>
-					<li>Worked with vendors and merchandising. </li>
-				</ul>
-			</p>
-		</div>
-		<hr>
-		<div class="content leftcontent"> <!-- Portfolio Title-->
-			<h3>Portfolio</h3>
-		</div>
-	<div class="content innercontent"> <!-- Portfolio Links -->
-		<p><a href="portfolio.html" target="_self">Visit Portfolio Page</a></p>
-		<p><a href="http://www.derekroyse.com/ConcordCourseSearch" target="_blank">Concord Course Search</a></p>	
-		<br>
-		<p><a href="http://www.github.com/derekroyse" target="_blank">My GitHub Profile</a></p>
-		<p><a href="files/DerekRoyse-Resume.pdf" target="_blank">Download Resume</a></p>
-	</div>
-</div>
-</body>
+	</body>
+</html>
