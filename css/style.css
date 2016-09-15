@@ -63,7 +63,7 @@ body{
 	background-image: url("../images/bg.jpg");
 	margin-left:auto;
 	margin-right:auto;
-	width:50%;
+	width:40%;
 	height:100%;
 }
 
@@ -118,7 +118,7 @@ h3{
 }
 
 .contentPanel{
-	width:70%;
+	width:80%;
 	font-family:cabin;
 	font-size:20px;
 	padding:20px;
@@ -135,7 +135,7 @@ h3{
 }
 
 li{
-	font-size:100%;
+	font-size:90%;
 }
 
 /*Fancy Buttons */
