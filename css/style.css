@@ -138,6 +138,16 @@ li{
 	font-size:90%;
 }
 
+.bullets{
+	list-style-type:circle;
+}
+
+.bullets li{
+	vertical-align:left;
+	text-align: justify;
+	margin-left:20px;
+}
+
 /*Fancy Buttons */
 .hot-container 
 	a { 
